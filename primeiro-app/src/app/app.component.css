@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    height: 20em;
+    width: 30em;
+    margin: 3em auto;
+    padding: 2em;
+    border-radius: 1em;
+    background-color: rgba(208, 218, 176, 0.466);
+    border: 0.6em solid rgb(49, 46, 47);
+}
+
+input{
+    font-weight: bold;
+    font-size: 1.3em;
+    width: 92%;
+    display: block;
+    margin: 1.2em auto 0 auto;
+    padding: 0.3em;
+    height: 2.2em;
+    border-radius: 0.5em;
+    background-color: rgba(55, 55, 58, 0.329);
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0.03em 0.03em 0.1em rgba(27, 26, 26, 0.507);
+}
