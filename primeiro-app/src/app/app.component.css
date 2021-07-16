@@ -31,3 +31,19 @@ h1{
     text-transform: uppercase;
     text-shadow: 0.03em 0.03em 0.1em rgba(27, 26, 26, 0.507);
 }
+
+.mostraTela{
+    width: 20em;
+    border: 0.2em solid rgb(0, 0, 0);
+    padding: 1em;
+    background-color: rgba(136, 138, 138, 0.335);
+    border-radius: 1em;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.774);
+    margin-top: 2em;
+}
+
+.corInfos{
+    font-weight: bold;
+    color: rgb(12, 1, 48);
+    text-transform: uppercase;
+}

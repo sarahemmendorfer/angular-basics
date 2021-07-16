@@ -1,11 +1,18 @@
 <main>
     <form action="">
         <h1>Formulário de Cadastro</h1>
-        <app-nome></app-nome>
-        <app-emailuser></app-emailuser>
-        <app-telefone></app-telefone>
-        <app-dia-nascimento></app-dia-nascimento>
-        <app-senha></app-senha>
+        <app-nome [(ngModel)]="nome" name="nome" ngDefaultControl></app-nome>
+        <app-emailuser [(ngModel)]="emailuser" name="email" ngDefaultControl></app-emailuser>
+        <app-telefone  [(ngModel)]="telefone" name="telefone" ngDefaultControl></app-telefone>
+        <app-dia-nascimento [(ngModel)]="diaNascimento" name="data" ngDefaultControl></app-dia-nascimento>
+        <app-senha  [(ngModel)]="senha" name="senha" ngDefaultControl></app-senha>
         <input type="submit">
     </form>
+    <div class="mostraTela">
+        <p><strong class="corInfos">Nome: </strong>{{nome}}</p>
+        <p><strong class="corInfos">Email:</strong> {{emailuser}}</p>
+        <p><strong class="corInfos">Telefone: </strong>{{telefone}}</p>
+        <p><strong class="corInfos">Aniversário: </strong>{{diaNascimento}}</p>
+        <p><strong class="corInfos">Senha:</strong> {{senha}}</p>
+    </div>
 </main>

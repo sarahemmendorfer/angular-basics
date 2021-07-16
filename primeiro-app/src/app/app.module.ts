@@ -7,6 +7,7 @@ import { SenhaComponent } from './senha/senha.component';
 import { TelefoneComponent } from './telefone/telefone.component';
 import { EmailuserComponent } from './emailuser/emailuser.component';
 import { DiaNascimentoComponent } from './dia-nascimento/dia-nascimento.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DiaNascimentoComponent } from './dia-nascimento/dia-nascimento.componen
     DiaNascimentoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
