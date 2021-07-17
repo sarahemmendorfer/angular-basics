@@ -1,0 +1,13 @@
+<div class="itemTarefa">
+    <div class="d-flex justify-content-between">
+        <div class="form-check me-2">
+          <input type="checkbox" class="form-check-input mb-1 ms-1" id="concluido">
+        </div>
+        <span class="mt-1" [ngClass]="{ concluido: concluido }">
+            {{tarefa}}
+        </span>
+        <button class="btn mb-3 me-1 botaoApagar" (click)="deletarTodo()">X</button>
+    </div>
+    
+    
+</div>

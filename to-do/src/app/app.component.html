@@ -1,0 +1,15 @@
+<main class="container-fluid d-flex justify-content-center align-items-center flex-column">
+  <div class="card">
+    <div class="card-header">
+      <h1>Lista de Tarefas</h1>
+      <div class="d-flex">
+        <input type="text" class="form-control minhaTarefaEnviar" [(ngModel)]="tarefaAtual" name="tarefa">
+        <button class="btn botaoAdd" (click)="addTarefa()">OK</button>
+      </div>
+    </div>  
+    <div class="card-body" *ngIf="tarefas.length != 0">
+      <app-todo-item (deletar)="deletarTarefa(idx)" *ngFor="let tarefa of tarefas; let idx = index"  class="flex-grow-1" [tarefa]="tarefa">
+      </app-todo-item>
+    </div>
+  </div>
+</main>

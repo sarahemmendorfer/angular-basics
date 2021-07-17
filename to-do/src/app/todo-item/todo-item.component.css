@@ -1,0 +1,24 @@
+.itemTarefa{
+    border-bottom: 0.1em solid pink;
+    color: rgb(47, 2, 51);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0.8em;
+}
+
+.botaoApagar{
+    background-color: plum;
+    color: black;
+    font-weight: bold;
+}
+
+input{
+    width: 1.4em;
+    height: 1.4em;
+    border: 1px solid rgb(48, 2, 59);
+    cursor: pointer;
+    
+}
+input:checked{
+  background-color: rgba(147, 41, 189, 0.746);
+}
